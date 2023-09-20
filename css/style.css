@@ -1,5 +1,5 @@
 body {
-     font-family: 'Raleway', sans-serif;   
+        font-family: 'Roboto', sans-serif;
 }
 header a {
     text-decoration: none;
@@ -139,6 +139,7 @@ div.section-team ul.team {
 .footer-studio {
         color: var(--CLOUD, #F4F4FD);
         text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
 }
 .footer p {
         color: var(--CLOUD, #F4F4FD);
