@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework#1</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Homework#2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
 
@@ -12,30 +16,41 @@
 
     <header>
         <nav>
-            <a href="WEBSTUDIO">WEBSTUDIO</a>
+            <a href="WEBSTUDIO">
+                <span class="web">
+                    web
+                </span>
+                <span class="studio">
+                    studio
+                </span>
+            </a>
+
             <div>
-                <ul>
-                    <li><a href="Studio">Studio</a></li>
-                    <li><a href="Portfolio">Portfolio</a></li>
-                    <li><a href="Contacts">Contacts</a></li>
+                <ul class="portfolios">
+                    <li class="studios"><a href="Studio">Studio</a></li>
+                    <li class="portfolio"><a href="Portfolio">Portfolio</a></li>
+                    <li class="contact"><a href="Contacts">Contacts</a></li>
                 </ul>
             </div>
-        </nav>    
+        </nav> 
+
             <div>
-                <ul>
-                    <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="+11(000)111-11-11">+11(000)111-11-11</a></li>
+                <ul class="links">
+                    <li class="infolink"><a href="info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="number"><a href="+11(000)111-11-11">+11(000)111-11-11</a></li>
                 </ul>
             </div>
             </header>
 
     <!-- first section of the page -->
-    <main>
-        <h1>Effective Solutions for Your Business</h1> 
-        <button type="button">Order Service</button>
-    
-        <div>
-            <ul>
+    <body>
+        <div class="title">
+            <h1>Effective Solutions<br>for Your Business</h1>
+            <button type="button" class="buttons">Order Service</button>
+        </div>
+
+        <div class="about-page">
+            <ul class="about-page-order">
                 <li>
                     <h3>Strategy</h3>
                     <p>Our goal is to identify the business problem
@@ -63,7 +78,7 @@
         </div>
         
         <!-- 2nd section of the page -->
-        <div class="web-description">
+        <div class="section-web">
             <h2>What are we doing</h2>
         
             <ul class="images">
@@ -74,7 +89,7 @@
         </div>
         
         <!-- 3rd section of the page -->
-        <div class="team-description">
+        <div class="section-team">
             <h2>Our Team</h2>
         
             <ul class="team">
@@ -100,11 +115,12 @@
                 </li>
             </ul>
         </div>
-    </main>
+    </body>
 
-    <footer>
-        <a href="WEBSTUDIO">WEBSTUDIO</a>
-        <p>Increase the flow of customers and sales for your business with digital marketing 
+    <footer class="footer">
+        <a href="WEBSTUDIO"><span class="web">web</span>
+            <span class="footer-studio">studio</span></a>
+        <p>Increase the flow of customers and<br>sales for your business with digital<br>marketing 
         & growth solutions.</p>
     </footer>
 </body>
