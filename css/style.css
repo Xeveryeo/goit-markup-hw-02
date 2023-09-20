@@ -97,6 +97,7 @@ h1 {
         color: var(--WHITE, #FFF);
         border-radius: 5px;
         cursor: pointer;
+        border: none;
 }
 
 .about-page ul.about-page-order {
