@@ -81,6 +81,7 @@ ul.links li a {
 .title { 
         background: var(--NAVY-BLUE, #2E2F42);
 }
+
 h1 {
         color: var(--WHITE, #FFF);
         text-align: center;
